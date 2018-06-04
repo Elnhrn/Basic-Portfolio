@@ -1,0 +1,185 @@
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    line-height: 2;
+    background-image: url("../images/what-the-hex/what-the-hex.png");
+    background-repeat: repeat;
+    font-size: 17.5px;
+}
+
+h1 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 22px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 5px;
+    margin-top: 125px;
+}
+
+header {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 15px 30px;
+}
+
+nav {
+    list-style-type: none;
+    float: right;
+    margin-right: -20px;
+    line-height: 1;
+}
+
+/* for the sticky footer */
+html, body {
+    height: 100%;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    width: 100%;
+    background-color: #666666;
+    color: #cccccc;
+    padding: 35px 0 0 0;
+    border-top: 9px solid #4aaaa5;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+label {
+    padding: 0;
+}
+
+a:hover {
+    color: #FF0000;
+}
+
+.white-header {
+    background-color: white;
+    width: 100%;
+    border-bottom: 1.5px solid #cccccc;
+}
+
+.header-nav {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h1-content {
+    color: #4aaaa5;
+    padding: 0 0 15px;
+    border-bottom: 2px solid #cccccc;
+}
+
+.content {
+    clear: both;
+    width: 900px;
+    margin: 40px auto 108px;
+    background-color: white;
+    border: 1px solid #dddddd;
+    padding: 30px;
+}
+
+.content-body {
+    padding: 20px 0 0;
+}
+
+.about-img {
+    float: left;
+    padding: 10px 20px 0 0;
+}
+
+.nav-list {
+    float: left;
+    border-right: solid 1px #dddddd;
+}
+
+.nav-list-a {
+    text-align: center;
+    text-decoration: none;
+    color: #cccccc;
+    padding: 0 20px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 10px;
+    margin: 0 0 10px;
+    display: inline-block;
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 30px;
+    font-size: inherit;
+    margin: 8px 0 0;
+    cursor: pointer;
+    border: none;
+}
+
+#message {
+    width: 100%;
+    border: 1px solid #dddddd;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.button {
+    padding: 20px 7px;
+    width: 286px;
+    height: 190px;
+    margin: 0 auto;
+    float: left;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    opacity: 1;
+}
+
+.button:hover {
+    opacity: .75;
+}
+
+.img1 {
+    background: url("../images/mountain.jpeg") no-repeat center;
+    background-size: 286px 190px;
+}
+
+.img2 {
+    background: url("../images/people.jpeg") no-repeat center;
+    background-size: 286px 190px; 
+}
+
+.img3 {
+    background: url("../images/anothermountain.jpeg") no-repeat center;
+    background-size: 286px 190px; 
+}
+
+.img4 {
+    background: url("../images/squirrel.jpeg") no-repeat center;
+    background-size: 286px 190px; 
+}
+
+.img5 {
+    background: url("../images/irlylikemtns.jpeg") no-repeat center;
+    background-size: 286px 190px; 
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
