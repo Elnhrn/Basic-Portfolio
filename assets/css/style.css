@@ -13,7 +13,14 @@ h1 {
     font-weight: bold;
 }
 
+
 h2 {
+    color: #4aaaa5;
+    padding: 0 0 15px;
+    border-bottom: 2px solid #cccccc;
+}
+
+h3 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: 22px;
     color: #ffffff;
@@ -76,12 +83,6 @@ a:hover {
     align-items: center;
 }
 
-.h1-content {
-    color: #4aaaa5;
-    padding: 0 0 15px;
-    border-bottom: 2px solid #cccccc;
-}
-
 .content {
     clear: both;
     width: 900px;
@@ -98,6 +99,7 @@ a:hover {
 .about-img {
     float: left;
     padding: 10px 20px 0 0;
+    width: 200px;
 }
 
 .nav-list {
